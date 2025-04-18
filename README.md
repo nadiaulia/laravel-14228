@@ -103,4 +103,32 @@ public function dokters(): HasMany
     return $this->hasMany(Periksa::class, 'id_dokter');
 }
 ```
+### Testing RBAC
 
+Anda dapan memastikan apakah fungsi RBAC berfungsi atau tidak dengan:
+1. Login sebagai dokter - route /dokter/* dapat diakses tetapi route /pasien/* tidak dapat diakses
+2. Login sebagai pasien - route /pasien/* dapat diakses tetapi route /dokter/* tidak dapat diakses
+3. User ilegal - Otomatis redirect ke halaman login jika membuka halaman yang memerlukan login
+
+### Screenshot akses ditolak
+
+![Akses Ditolak - Dokter](TSS/T1.png)
+*Dokter ketika mencoba mengakses halaman pasien*
+
+### Halaman Publik
+1. Landing Page
+![Landing Page](TSS/T2.png)
+*Halaman awal website yang dapat diakses publik*
+
+2. Halaman Login
+![Login Page](TSS/T3.png) 
+*Halaman login untuk dokter dan pasien*
+
+3. Halaman Register 
+![Register Page](TSS/T4.png)
+*Halaman pendaftaran untuk pasien baru*
+
+### Halaman Pasien
+1. Dashboard
+![Dashboard Pasien](TSS/T5.png)
+Halaman dashboard untuk Pasien
