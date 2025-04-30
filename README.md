@@ -3,15 +3,15 @@
 Repositori tugas bengkel koding website sismenkes dengan laravel.
 
 ```
-Nama : Nadia Aulia Astrianingrum
-NIM  : A11.2022.14228
+Nama : Heryawan Eko Saputro
+NIM  : A11.2022.14237
 ```
 
 ## Cara menjalankan projek secara lokal
 
 1. Clone repositori:
 ```bash
-git clone https://github.com/nadiaulia/laravel-14228.git
+git clone https://github.com/yourusername/RavaelaBkod.git
 cd RavaelaBkod
 ```
 
@@ -103,6 +103,7 @@ public function dokters(): HasMany
     return $this->hasMany(Periksa::class, 'id_dokter');
 }
 ```
+
 ### Testing RBAC
 
 Anda dapan memastikan apakah fungsi RBAC berfungsi atau tidak dengan:
@@ -113,32 +114,63 @@ Anda dapan memastikan apakah fungsi RBAC berfungsi atau tidak dengan:
 ### Screenshot akses ditolak
 
 ![Akses Ditolak - Dokter](TSS/T1.png)
-Dokter ketika mencoba mengakses halaman pasien
+*Dokter ketika mencoba mengakses halaman pasien*
+
+## Skema Database & Model
+
+### File Migrasi
+
+1. Migrasi Detail Periksa
+![Migrasi Detail Periksa](TSS/tgA2.png)
+*Migrasi untuk tabel detail_periksas*
+
+2. Obat Migration
+![Obat Migration](TSS/tgA1.png)
+*Migrasi untuk tabel obats*
+
+### Model Files
+
+1. Model Periksa
+![Model Periksa](TSS/tgA3.png)
+*Implementasi model Periksa dengan relasinya*
+
+2. Model Detail Periksa  
+![Model Detail Periksa](TSS/tgA4.png)
+*Implementasi model DetailPeriksa dengan relasinya*
+
+3. Model Obat
+![Model Obat](TSS/tgA5.png)
+*Implementasi model Obat dengan relasinya*
+
+### Database Setup
+
+![Migrasi Sukes](TSS/tgA7.png)
+*Screenshot terminal menunjukkan migrasi database berhasil*
+
+## User Interface
 
 ### Halaman Publik
 1. Landing Page
 ![Landing Page](TSS/T2.png)
-Halaman awal website yang dapat diakses publik
+*Halaman awal website yang dapat diakses publik*
 
 2. Halaman Login
 ![Login Page](TSS/T3.png) 
-Halaman login untuk dokter dan pasien
+*Halaman login untuk dokter dan pasien*
 
 3. Halaman Register 
 ![Register Page](TSS/T4.png)
-Halaman pendaftaran untuk pasien baru
-
-### Halaman Pasien
-1. Dashboard
-![Dashboard Pasien](TSS/T5.png)
-Halaman dashboard untuk Pasien
+*Halaman pendaftaran untuk pasien baru*
 
 ### Halaman Dokter
 1. Dashboard
-![Dashboard Dokter](TSS/T6.png)
-Halaman dashboard untuk dokter
+![Dashboard Dokter](TSS/T5.png)
+*Halaman dashboard untuk dokter*
 
-2. Obat
-![Obat](TSS/T7.png)
-Halaman obat untuk dokter
+3. Daftar Obat  
+![List Obat](TSS/T6.png)
+*Halaman pengelolaan daftar obat*
 
+4. Form Tambah Obat
+![Add Medicine](TSS/T7.png)
+*Form untuk menambahkan obat baru*

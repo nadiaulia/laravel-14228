@@ -153,8 +153,8 @@
                                 <!-- Message. Default to the left -->
                                 <div class="direct-chat-msg">
                                     <div class="direct-chat-infos clearfix">
-                                        <span class="direct-chat-name float-left">Nadia Aulia</span>
-                                        <span class="direct-chat-timestamp float-right">05 April 2:00 pm</span>
+                                        <span class="direct-chat-name float-left">Savaro</span>
+                                        <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
                                     </div>
                                     <!-- /.direct-chat-infos -->
                                     <img class="direct-chat-img" src="{{ asset('lte/dist/img/user1-128x128.jpg') }}"
@@ -170,8 +170,8 @@
                                 <!-- Message to the right -->
                                 <div class="direct-chat-msg right">
                                     <div class="direct-chat-infos clearfix">
-                                        <span class="direct-chat-name float-right">Wanda</span>
-                                        <span class="direct-chat-timestamp float-left">05 April 3:05 pm</span>
+                                        <span class="direct-chat-name float-right">Amelia</span>
+                                        <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
                                     </div>
                                     <!-- /.direct-chat-infos -->
                                     <img class="direct-chat-img" src="{{ asset('lte/dist/img/user3-128x128.jpg') }}"
@@ -187,7 +187,7 @@
                                 <!-- Message. Default to the left -->
                                 <div class="direct-chat-msg">
                                     <div class="direct-chat-infos clearfix">
-                                        <span class="direct-chat-name float-left">Savero</span>
+                                        <span class="direct-chat-name float-left">Savaro</span>
                                         <span class="direct-chat-timestamp float-right">23 Jan 5:37 pm</span>
                                     </div>
                                     <!-- /.direct-chat-infos -->
@@ -204,7 +204,7 @@
                                 <!-- Message to the right -->
                                 <div class="direct-chat-msg right">
                                     <div class="direct-chat-infos clearfix">
-                                        <span class="direct-chat-name float-right">Putri</span>
+                                        <span class="direct-chat-name float-right">Amelia</span>
                                         <span class="direct-chat-timestamp float-left">23 Jan 6:10 pm</span>
                                     </div>
                                     <!-- /.direct-chat-infos -->
