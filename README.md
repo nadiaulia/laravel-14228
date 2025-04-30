@@ -113,22 +113,28 @@ Anda dapan memastikan apakah fungsi RBAC berfungsi atau tidak dengan:
 ### Screenshot akses ditolak
 
 ![Akses Ditolak - Dokter](TSS/T1.png)
-*Dokter ketika mencoba mengakses halaman pasien*
+Dokter ketika mencoba mengakses halaman pasien
 
 ### Halaman Publik
 1. Landing Page
 ![Landing Page](TSS/T2.png)
-*Halaman awal website yang dapat diakses publik*
+Halaman awal website yang dapat diakses publik
 
 2. Halaman Login
 ![Login Page](TSS/T3.png) 
-*Halaman login untuk dokter dan pasien*
+Halaman login untuk dokter dan pasien
 
 3. Halaman Register 
 ![Register Page](TSS/T4.png)
-*Halaman pendaftaran untuk pasien baru*
+Halaman pendaftaran untuk pasien baru
 
 ### Halaman Pasien
 1. Dashboard
 ![Dashboard Pasien](TSS/T5.png)
 Halaman dashboard untuk Pasien
+
+### Halaman Dokter
+1. Dashboard
+![Dashboard Dokter](TSS/T6.png)
+Halaman dashboard untuk dokter
+
