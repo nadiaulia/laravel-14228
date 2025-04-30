@@ -138,3 +138,7 @@ Halaman dashboard untuk Pasien
 ![Dashboard Dokter](TSS/T6.png)
 Halaman dashboard untuk dokter
 
+2. Obat
+![Obat](TSS/T7.png)
+Halaman obat untuk dokter
+
