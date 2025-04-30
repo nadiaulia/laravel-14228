@@ -116,36 +116,6 @@ Anda dapan memastikan apakah fungsi RBAC berfungsi atau tidak dengan:
 ![Akses Ditolak - Dokter](TSS/T1.png)
 *Dokter ketika mencoba mengakses halaman pasien*
 
-## Skema Database & Model
-
-### File Migrasi
-
-1. Migrasi Detail Periksa
-![Migrasi Detail Periksa](TSS/tgA2.png)
-*Migrasi untuk tabel detail_periksas*
-
-2. Obat Migration
-![Obat Migration](TSS/tgA1.png)
-*Migrasi untuk tabel obats*
-
-### Model Files
-
-1. Model Periksa
-![Model Periksa](TSS/tgA3.png)
-*Implementasi model Periksa dengan relasinya*
-
-2. Model Detail Periksa  
-![Model Detail Periksa](TSS/tgA4.png)
-*Implementasi model DetailPeriksa dengan relasinya*
-
-3. Model Obat
-![Model Obat](TSS/tgA5.png)
-*Implementasi model Obat dengan relasinya*
-
-### Database Setup
-
-![Migrasi Sukes](TSS/tgA7.png)
-*Screenshot terminal menunjukkan migrasi database berhasil*
 
 ## User Interface
 
