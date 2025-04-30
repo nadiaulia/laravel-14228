@@ -3,8 +3,8 @@
 Repositori tugas bengkel koding website sismenkes dengan laravel.
 
 ```
-Nama : Heryawan Eko Saputro
-NIM  : A11.2022.14237
+Nama : Nadia Aulia Astrianingrum
+NIM  : A11.2022.14228
 ```
 
 ## Cara menjalankan projek secara lokal
