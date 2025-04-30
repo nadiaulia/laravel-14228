@@ -11,7 +11,7 @@ NIM  : A11.2022.14228
 
 1. Clone repositori:
 ```bash
-git clone https://github.com/yourusername/RavaelaBkod.git
+git clone https://github.com/nadiaulia/laravel-14228.git
 cd RavaelaBkod
 ```
 
