@@ -137,10 +137,3 @@ Anda dapan memastikan apakah fungsi RBAC berfungsi atau tidak dengan:
 ![Dashboard Dokter](TSS/T5.png)
 *Halaman dashboard untuk dokter*
 
-3. Daftar Obat  
-![List Obat](TSS/T6.png)
-*Halaman pengelolaan daftar obat*
-
-4. Form Tambah Obat
-![Add Medicine](TSS/T7.png)
-*Form untuk menambahkan obat baru*
