@@ -5,7 +5,7 @@
     </a>
 </li>
 <li class="nav-item">
-    <a href="#" class="nav-link {{ request()->routeIs('pasien.periksa') ? 'active' : '' }}">
+    <a href="{{ route('pasien.periksa') }}" class="nav-link {{ request()->routeIs('pasien.periksa') ? 'active' : '' }}">
         <i class="nav-icon fas fa-solid fa-hospital"></i>
         <p>Periksa</p>
     </a>

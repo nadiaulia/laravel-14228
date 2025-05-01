@@ -5,7 +5,7 @@
     </a>
 </li>
 <li class="nav-item">
-    <a href="#" class="nav-link {{ request()->is('dokter/memeriksa*') ? 'active' : '' }}">
+    <a href="/dokter/memeriksa" class="nav-link {{ request()->is('dokter/memeriksa*') ? 'active' : '' }}">
         <i class="nav-icon fas fa-solid fa-stethoscope"></i>
         <p>Memeriksa</p>
     </a>
